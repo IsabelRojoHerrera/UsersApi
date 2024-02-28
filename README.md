@@ -18,4 +18,7 @@ Un paso a paso que te dice lo que debes ejecutar para tener un entorno de desarr
 La aplicación muestra una lista de tarjetas, cada una correspondiente a un usuario ficticio obtenido de la API de JSONPlaceholder. Al cargar, la aplicación realiza una solicitud a la API para obtener los datos de los usuarios. 
 Luego, convierte el atributo 'name' de cada usuario a hexadecimal y utiliza este valor para generar una imagen única para cada usuario a través de la API de Gravatar. 
 
+## Demo ✨
+https://drive.google.com/file/d/1uAJtGdbAN1QGqVJ7dJJYervGR9EZfLr_/view?usp=sharing
+
 <> con ♥ por Chabe.
