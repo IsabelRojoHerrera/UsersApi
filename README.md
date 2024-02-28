@@ -8,7 +8,7 @@ La primera API utilizada es JSONPlaceholder para obtener información de usuario
 Un paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose: 
  
 1. Clona el repositorio en tu máquina local:
-  git clone https://tu-proyecto-enlace.git
+  git clone https://github.com/IsabelRojoHerrera/UsersApi.git
 
 2. Abre el proyecto en tu editor de código. 
 
