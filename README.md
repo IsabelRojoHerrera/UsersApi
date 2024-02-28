@@ -14,8 +14,8 @@ Un paso a paso que te dice lo que debes ejecutar para tener un entorno de desarr
 
 3. Ejecuta un servidor local o abre directamente el archivo  index.html  en tu navegador para visualizar el proyecto. 
  
-## Uso 📦 
+## Uso ⚙
 La aplicación muestra una lista de tarjetas, cada una correspondiente a un usuario ficticio obtenido de la API de JSONPlaceholder. Al cargar, la aplicación realiza una solicitud a la API para obtener los datos de los usuarios. 
 Luego, convierte el atributo 'name' de cada usuario a hexadecimal y utiliza este valor para generar una imagen única para cada usuario a través de la API de Gravatar. 
 
-<> con <3 por Chabe.
+<> con ♥ por Chabe.
