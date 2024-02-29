@@ -30,7 +30,13 @@ function mostrarTarjetas(data) {
         //imagen
         const avatar = document.createElement('img');
         avatar.classList.add('img-avatar');
-        avatar.src = "https://drive.usercontent.google.com/download?id=1uqqOiM3zyqYtDnfqH-_xovb9iZz9X5qn&export=view&authuser=0";
+        
+        // para crear avatares de robot: 
+        //urlAvatar = textoAHexadecimal(user.name);
+        //avatar.src = https://www.gravatar.com/avatar/"+urlAvatar"?d=identicon&f=y&s=128
+  
+        //crea avataares animados
+        avatar.src = "https://api.multiavatar.com/"+user.name+".svg";
 
         //div de titulo, class titulo
         const titulo = document.createElement('div');
@@ -53,9 +59,6 @@ function mostrarTarjetas(data) {
         
 
 
-        
-
-
         //se agregan el texto y la descripción a la tarjeta
         tarjeta.appendChild(avatar);
         tarjeta.appendChild(titulo);
@@ -65,6 +68,12 @@ function mostrarTarjetas(data) {
         //se agrega la tarjeta al div contenedor
         container.appendChild(tarjeta);
     });
+
+
 }
 
-
+function textoAHexadecimal(texto) {
+    return texto.split('').map(function(c) {
+        return c.charCodeAt(0).toString(16);
+    }).join('');
+}
