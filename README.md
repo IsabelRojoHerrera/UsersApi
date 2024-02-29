@@ -1,7 +1,7 @@
 # UsersApi
  
 Breve descripción del proyecto: Este proyecto es una aplicación web que consume dos API distintas para mostrar información de usuarios e imágenes generadas. 
-La primera API utilizada es JSONPlaceholder para obtener información de usuarios ficticios, y la segunda API es Gravatar para generar imágenes únicas basadas en el nombre del usuario convertido a hexadecimal. 
+La primera API utilizada es JSONPlaceholder para obtener información de usuarios ficticios, y la segunda API es Gravatar para generar imágenes únicas de Robots basadas en el nombre del usuario convertido a hexadecimal. (Recién añadido una segunda API para generar avatares animados usando el nombre del usuario como semilla).
 
 ### Instalación 🔧 
  
